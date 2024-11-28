@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  }
+
+body{
+    background-color:hsl(30, 54%, 90%) ;
+}
+
+div#interface {
+ display: block;
+   width: 650px;
+   background-color: white;
+   margin: 100px auto 30px auto;
+   border-radius: 25px;
+   padding: 50px ;
+}
+
+img{
+    width: 650px;
+    margin: 5px 30px 10px 5px ;
+    border-radius: 17px;
+}
+
+h1{
+    font-size: 45px;
+    color: hsl(24, 5%, 18%);
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+    font-family: FonteLogo;
+}
+
+h2#diferente {
+    color: hsl(332, 51%, 32%) ;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+div#diferente{
+   background-color: rgba(255, 0, 119, 0.03) ;
+   margin-left: 20px ;
+   padding: 10px;
+   border-radius: 10px;
+   color: hsl(24, 5%, 18%);
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+li{
+    color: hsl(24, 5%, 18%);
+    font-size: 15px;
+    padding: 8px;
+    font-family: FonteLogo;
+}
+
+td{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: hsl(24, 5%, 18%);
+    font-family: FonteLogo;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    border-bottom: 0.1px solid hsl(24, 5%, 18%) ;
+}
+
+td#esq{
+    color:hsl(14, 45%, 36%) ;
+    padding-left: 200px;
+    padding-right: 300px;
+}
+
+td#esq1{
+    color:hsl(14, 45%, 36%) ;
+    padding-left: 200px;
+    border-bottom: 0px ;
+}
+
+td#q{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+    font-family: FonteLogo;
+    border-bottom: 0px  ;
+    font-size: 15px;
+}
+
+
+
+
